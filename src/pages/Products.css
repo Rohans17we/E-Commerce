@@ -1,0 +1,34 @@
+.products-container {
+    text-align: center;
+    padding: 40px 5%;
+  }
+  
+  .category-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .category-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .category-buttons button.active {
+    background-color: #ff5a5f;
+    color: white;
+  }
+  
+  .category-buttons button:hover {
+    background-color: #ff787d;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }

@@ -1,0 +1,13 @@
+/* Reset default margins & paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body takes full viewport width */
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
